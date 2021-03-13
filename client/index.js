@@ -21,7 +21,7 @@ function initialize() {
 					const item = document.createElement('li');
 					item.innerHTML = file;
 					const img = new Image();
-					img.src = '/showPic/' + file;
+					img.src = '/getPic/' + file;
 					item.appendChild(img);
 					list.appendChild(item);
 				}
