@@ -1,0 +1,5 @@
+#pictures-list li img {
+	max-width: 100px;
+	vertical-align: middle;
+	margin-inline-start: 10px;
+}
